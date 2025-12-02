@@ -1,5 +1,4 @@
 import React from 'react';
-import { CheckCircle, Mail, Phone, ArrowRight, Calendar, Star } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { 
@@ -38,8 +37,8 @@ const Home: React.FC = () => {
         {/* Background Image - Absolute Positioning */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop" 
-            alt="Excavator machinery operating at sunset on a construction site" 
+            src="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=2535&auto=format&fit=crop" 
+            alt="Landscaping" 
             className="w-full h-full object-cover opacity-80"
             loading="eager"
           />
